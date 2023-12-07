@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.page{
+  position: relative;
+}
+.shadow-contact{
+  box-shadow: 20px,20px,rgba(0, 0, 0, 0.7);
+}
+
+.bg {
+  overflow-x: hidden;
+  margin-top: 30px; /* You need to specify the sticky positioning */
+  top: 0; /* Example: Stick to the top of the viewport */
+ /*  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+              url("/public/images/bg_home.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat; /* You can adjust the sizing as needed */
+  z-index:-1; /* Be cautious with negative z-index values */
+}
+.bg-sm {
+  overflow-x: hidden;
+  margin-top: 30px; /* You need to specify the sticky positioning */
+  top: 0; /* Example: Stick to the top of the viewport */
+ /*  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+              url("/public/images/bg_sm.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat; /* You can adjust the sizing as needed */
+  z-index:-1; /* Be cautious with negative z-index values */
+}
+
+.page:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(20px); /* Adjust the blur strength as needed */
+  z-index: -1;
+  transition: filter 0.5s; /* Add a smooth transition effect */
+}
+/* for the first bg in the home page  */
+.bg2 {
+  
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+              url("/public/images/bg2.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat; /* You can adjust the sizing as needed */
+  z-index:-1;
+} .redius{
+  border-radius: 0 50px 0 0 ;
+}
+.small-bg{
+  border-radius: 0 50px 0 50px ;
+}
+/* for the second bg in the hom page */
+.small1-bg{
+  border-radius:  50px 0 50px 0 ;
+}
+.redius1{
+  border-radius:  50px 0 0 0 ;
+}
+/* for login */
+.bg3{
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+              url("/public/images/login_bg.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat; /* You can adjust the sizing as needed */
+  z-index:-1;
+}
+
+@layer utilities{
+  .nav{
+    @apply relative text-lg ml-10 text-gray-600 font-bold tracking-[1px] hover:text-sky-600
+  }
+  .nav::after{
+    @apply content-[''] bg-yellow-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+  }
+  .nav:hover::after{
+    @apply w-[100%]
+  }
+  .btn{
+    @apply relative text-3xl  text-gray-600 font-bold tracking-[1px] hover:text-sky-600
+  }
+  .btn::after{
+    @apply content-[''] bg-yellow-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+  }
+  .btn:hover::after{
+    @apply w-[100%]
+  }
+}
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+video{
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+}
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  z-index: 40; 
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+.overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, .6);
+}
+.overlay3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64vh;
+  background-color: rgba(0, 0, 0, .6);
+}
