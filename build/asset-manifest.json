@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2403659b.css",
+    "main.js": "/static/js/main.9257bff1.js",
+    "static/media/videoBg.mp4": "/static/media/videoBg.743fba8358a8f63a0475.mp4",
+    "static/media/travail_1.jpg": "/static/media/travail_1.dbf7da6a74198cbd3250.jpg",
+    "static/media/travail_2.jpg": "/static/media/travail_2.8588315ea4721ba9f135.jpg",
+    "static/media/travail_3.jpg": "/static/media/travail_3.7a2f5e73e4696e9c43cb.jpg",
+    "static/media/pic_pat2_3.jpg": "/static/media/pic_pat2_3.14f2e1f8e991567f7da6.jpg",
+    "static/media/pic_pat2_4.jpg": "/static/media/pic_pat2_4.911c6570f26ab6f671cc.jpg",
+    "static/media/pic_pat2_2.jpg": "/static/media/pic_pat2_2.98663b501c3cd253f0ba.jpg",
+    "static/media/pic_pat2_1.jpg": "/static/media/pic_pat2_1.2330fe33bff83371bb03.jpg",
+    "static/media/pic_part1_1.jpg": "/static/media/pic_part1_1.165248f41f84dd31bdb4.jpg",
+    "static/media/pic_part1_3.jpg": "/static/media/pic_part1_3.0eb99870a19dbf8fef0a.jpg",
+    "static/media/travail_2-1.png": "/static/media/travail_2-1.867f5410141d97be7dc7.png",
+    "static/media/pic_part1_2.jpg": "/static/media/pic_part1_2.772708dab3abc3534559.jpg",
+    "static/media/travail_2-2.png": "/static/media/travail_2-2.2b63f40dba32d525f7da.png",
+    "static/media/travail_2-3.png": "/static/media/travail_2-3.a1c34850edaee8dcaa40.png",
+    "static/media/main_img.jpg": "/static/media/main_img.652607693a5b129ab987.jpg",
+    "static/media/travail_4-1.png": "/static/media/travail_4-1.fc7f8fac66d0af4f4dbd.png",
+    "static/media/travail_3.png": "/static/media/travail_3.8d508513a184116c73ab.png",
+    "static/media/travail_4-3.png": "/static/media/travail_4-3.d095440bd4391d8c0083.png",
+    "static/media/travail_4-2.png": "/static/media/travail_4-2.5e3797d41c4f8c0d16de.png",
+    "static/media/logo.png": "/static/media/logo.aa859e2287a86e69b008.png",
+    "static/media/main.jpg": "/static/media/main.570953af9880d556357c.jpg",
+    "index.html": "/index.html",
+    "main.2403659b.css.map": "/static/css/main.2403659b.css.map",
+    "main.9257bff1.js.map": "/static/js/main.9257bff1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2403659b.css",
+    "static/js/main.9257bff1.js"
+  ]
+}
